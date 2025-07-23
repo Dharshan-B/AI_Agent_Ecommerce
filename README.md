@@ -18,10 +18,9 @@ This project is an AI agent that can intelligently respond to natural language q
 
 | Component     | Technology Used             |
 |---------------|-----------------------------|
-| Backend API   | Flask (Python)              |
+| Backend API   | python           |
 | Database      | SQLite                      |
-| AI/LLM        | Open-source model via `transformers` (e.g., GPT4All, Mistral, LLama.cpp) |
-| ORM           | SQLAlchemy                  |
+| AI/LLM        | Open-source model via `transformers` |
 | Visualization | Matplotlib / Seaborn        |
 ---
 
