@@ -8,7 +8,7 @@ os.makedirs("db", exist_ok=True)
 # Connecting to SQLite 
 conn = sqlite3.connect("db/ecommerce.db")
 
-# Mapping of table names
+#table names
 files = {
     "TotalSalesMetrics": "data/Product-Level-Total-Sales-and-Metrics.csv",
     "AdSalesMetrics": "data/Product-Level-Ad-Sales-and-Metrics.csv",

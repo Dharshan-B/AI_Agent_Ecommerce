@@ -1,6 +1,6 @@
 import httpx
 import os
-API_KEY = os.getenv("GEMINI_API_KEY") #Environmental variable
+API_KEY = "AIzaSyBy9rxI02eVTQ2JV70-49a_2WyECcZT9Ho" #Environmental variable os.getenv()
 
 def question_to_sql(user_question):
     prompt = f"""
